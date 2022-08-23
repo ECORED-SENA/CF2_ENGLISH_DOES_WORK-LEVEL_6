@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      '<em>Life is good and I have been enjoying it</em> <br> La vida es buena y la he estado disfrutando',
+    descripcionCurso:
+      'En este componente se va a profundizar en los tiempos perfectos, para ser más específicos: en las diferencias entre el presente perfecto y el pasado simple, y en cómo se estructura y se usa el presente perfecto continuo. Después, va a aprender algunos marcadores de discurso que se usan como conectores secuenciales de tiempo pasado, los cuales son útiles para usar con estos tiempos verbales, y para finalizar, se enumerará vocabulario sobre actividades de ocio.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
