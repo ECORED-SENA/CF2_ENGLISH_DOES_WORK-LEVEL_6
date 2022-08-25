@@ -15,7 +15,7 @@
           span.text-gray Cuando se habla de actividades de ocio o actividades de tiempo libre, es importante tener en cuenta todas aquellas actividades que realizamos para divertirnos. No se trata de todas esas obligaciones que tenemos en nuestra vida diaria.
 
       .col-lg-5: img(src='@/assets/curso/temas/45.svg')
-    .margin-n.p-5(style='background-color: #d5d6f0')
+    .margin-n.p-5(style='background-color: #d5d6f0').mb-5
       p.text-center Observe y escuche vocabulario de algunas actividades de ocio o actividades de tiempo libre:
       .tarjeta.bg-white.p-4
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
@@ -224,66 +224,68 @@ export default {
     dialogo: {
       personajes: [
         {
-          nombre: 'Oscar',
-          img: require('@/assets/curso/temas/oscar.svg'),
+          nombre: 'Sandra',
+          img: require('@/assets/curso/temas/sandra.svg'),
         },
         {
-          nombre: 'Manuel',
-          img: require('@/assets/curso/temas/manuel.svg'),
+          nombre: 'David',
+          img: require('@/assets/curso/temas/david.svg'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Oscar',
-          textoIng: 'Manuel! It’s been a long time!',
+          personaje: 'Sandra',
+          textoIng:
+            'Hey David, did you practice many sports when you were a child?',
           textoEsp: 'Pendiente traduccion',
           audio: require('@/assets/audios/tema1/1.wav'),
         },
         {
-          personaje: 'Manuel',
-          textoIng: 'Hi! Yes, I know! I *** abroad',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
-          palabra: 'have been living',
-        },
-        {
-          personaje: 'Oscar',
-          textoIng: 'That’s amazing! I didn’t know that.',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
-        },
-        {
-          personaje: 'Manuel',
+          personaje: 'David',
           textoIng:
-            'Sorry, I didn’t tell anyone because I wasn’t sure about that.',
+            'Sure! My parents have been registering me to try new activities.',
           textoEsp: '',
           audio: require('@/assets/audios/tema1/1.wav'),
         },
         {
-          personaje: 'Oscar',
-          textoIng: 'And where ***?',
+          personaje: 'Sandra',
+          textoIng: 'What sports have you practiced?',
           textoEsp: '',
           audio: require('@/assets/audios/tema1/1.wav'),
-          palabra: 'have you been living',
         },
         {
-          personaje: 'Manuel',
-          textoIng: '*** in England.',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
-          palabra: 'I have been living',
-        },
-        {
-          personaje: 'Oscar',
-          textoIng: 'That’s amazing!  about moving to Scotland.',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
-          palabra: 'I have been thinking',
-        },
-        {
-          personaje: 'Manuel',
+          personaje: 'David',
           textoIng:
-            'It is a great idea! Go ahead and do it! You won’t regret it.',
+            'Well, I have played ***, volleyball, football, and of course basketball. ',
+          textoEsp: '',
+          audio: require('@/assets/audios/tema1/1.wav'),
+          palabra: 'tennis',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'Wow! Have you ever tried any other activities?',
+          textoEsp: '',
+          audio: require('@/assets/audios/tema1/1.wav'),
+        },
+        {
+          personaje: 'David',
+          textoIng:
+            'Yes! I have done yoga, I have gone camping, I have *** and played chess. ',
+          textoEsp: '',
+          audio: require('@/assets/audios/tema1/1.wav'),
+          palabra: 'fished',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'I have always loved fishing! Have you been *** recently?',
+          textoEsp: '',
+          audio: require('@/assets/audios/tema1/1.wav'),
+          palabra: 'fishing',
+        },
+        {
+          personaje: 'David',
+          textoIng:
+            'Not really, but three months ago something incredible happened, I got a small shark, it was terrifying!',
           textoEsp: '',
           audio: require('@/assets/audios/tema1/1.wav'),
         },
