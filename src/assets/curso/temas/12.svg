@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="115" viewBox="0 0 288 115">
+  <g id="_12" data-name="12" transform="translate(-292 -1287)">
+    <rect id="Rectángulo_43025" data-name="Rectángulo 43025" width="288" height="115" transform="translate(292 1287)" fill="#6b8dfc"/>
+    <g id="Grupo_170332" data-name="Grupo 170332" transform="translate(6929 11799)">
+      <text id="past" transform="translate(-6620 -10427)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-15.609" y="15">past</tspan></text>
+      <text id="now" transform="translate(-6516 -10427)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-14.883" y="15">now</tspan></text>
+      <g id="Rectángulo_43024" data-name="Rectángulo 43024" transform="translate(-6548 -10477)" fill="#fff" stroke="#12263f" stroke-width="1">
+        <rect width="105" height="25" stroke="none"/>
+        <rect x="0.5" y="0.5" width="104" height="24" fill="none"/>
+      </g>
+      <text id="Unfinished_time" data-name="Unfinished time" transform="translate(-6556 -10501)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-56.703" y="15">Unfinished time</tspan></text>
+      <text id="today" transform="translate(-6535 -10474)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-19.863" y="15">today</tspan></text>
+      <line id="Línea_631" data-name="Línea 631" x2="223" transform="translate(-6608.5 -10432.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_632" data-name="Línea 632" y2="53" transform="translate(-6547.5 -10485.5)" fill="none" stroke="#12263f" stroke-width="1" stroke-dasharray="4"/>
+      <line id="Línea_633" data-name="Línea 633" y2="53" transform="translate(-6443 -10485.5)" fill="none" stroke="#12263f" stroke-width="1" stroke-dasharray="4"/>
+      <rect id="Rectángulo_43058" data-name="Rectángulo 43058" width="51" height="23" transform="translate(-6547 -10476)" fill="#a6bbff" opacity="0.59"/>
+      <line id="Línea_634" data-name="Línea 634" y2="53" transform="translate(-6495.5 -10485.5)" fill="none" stroke="#12263f" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
