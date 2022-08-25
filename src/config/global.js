@@ -11,6 +11,10 @@ export default {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/adorno.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/flag.svg'),
+      },
     ],
   },
   menuPrincipal: {
