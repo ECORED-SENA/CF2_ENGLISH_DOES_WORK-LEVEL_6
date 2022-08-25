@@ -131,7 +131,7 @@
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6') Ver traducción
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tsaNgMHca2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_3_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 3.2  <em>Affirmative, negative and interrogative structures</em> (Estructuras afirmativas, negativas e interrogativas)
