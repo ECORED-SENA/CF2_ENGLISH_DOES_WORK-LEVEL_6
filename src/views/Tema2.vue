@@ -30,7 +30,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="First, I bought a shirt."
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/1.mp3')"
                     )
                   p.ms-3 Primero, compré una camisa.
           div(titulo='2. Then / Luego')
@@ -43,7 +43,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Then, we sent a box.  "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/2.mp3')"
                     )
                   p.ms-3 Después, enviamos una caja.
           div(titulo='3. Next / A continuación')
@@ -56,7 +56,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Next, she called her sister.   "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/3.mp3')"
                     )
                   p.ms-3 Después, llamó a su hermTom.
           div(titulo='4. After / Después')
@@ -69,7 +69,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="After eating, I washed my hands. "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/4.mp3')"
                     )
                   p.ms-3 Después de comer, me lavé las manos.
       .col-lg-5: img(src='@/assets/curso/temas/19.png', alt='')
@@ -87,7 +87,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="We went to the park. After that, we cooked the meat.  "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/5.mp3')"
                     )
                   p.ms-3 Fuimos al parque. Después de eso, cocinamos la carne.
           div(titulo='6. Before / Antes ')
@@ -100,7 +100,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Before cleaning, I organized the whole house. "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/6.mp3')"
                     )
                   p.ms-3 Antes de limpiar, organicé toda la casa.
           div(titulo='7. Before  that / Antes de eso')
@@ -113,7 +113,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="I called my brother. Before that, I had to look for his phone number. "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/7.mp3')"
                     )
                   p.ms-3 Llamé a mi hermano. Antes de eso, tuve que buscar su número de teléfono.
           div(titulo='8. Finally / Finalmente')
@@ -126,7 +126,7 @@
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Finally, I started my trip to New York.  "
-                    :audio="require('@/assets/audios/tema1/1.wav')"
+                    :audio="require('@/assets/audios/tema2/8.mp3')"
                     )
                   p.ms-3 Finalmente, inicié mi viaje a Nueva York.
     Dialogo.color-acento-contenido(:dialogo="dialogo")
@@ -157,21 +157,21 @@ export default {
           personaje: 'Tom',
           textoIng: 'Maria, how did you spend your weekend?',
           textoEsp: 'Pendiente traduccion',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/1.mp3'),
         },
         {
           personaje: 'Maria',
           textoIng:
             'Well, I went to my aunt’s house, but it rained ***  I entered the house.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/2.wav'),
           palabra: 'before',
         },
         {
           personaje: 'Tom',
           textoIng: 'No! really?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/3.mp3'),
           palabra: 'I arrived',
         },
         {
@@ -179,34 +179,34 @@ export default {
           textoIng:
             'Yes. *** , it got really cold and I didn’t have clothes to change there.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/4.wav'),
           palabra: 'After that',
         },
         {
           personaje: 'Tom',
           textoIng: 'No way! What did you do then?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/5.mp3'),
         },
         {
           personaje: 'Maria',
           textoIng:
             'First, I drank a cup of hot tea, then I bought some medicine, and *** I went to bed.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/6.wav'),
           palabra: 'finally',
         },
         {
           personaje: 'Tom',
           textoIng: 'So, did you get sick?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/7.mp3'),
         },
         {
           personaje: 'Maria',
           textoIng: 'Not really, but I don’t feel that good.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a2/8.wav'),
         },
       ],
     },

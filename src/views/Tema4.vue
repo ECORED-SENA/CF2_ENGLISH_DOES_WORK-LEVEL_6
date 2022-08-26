@@ -29,7 +29,7 @@
                 br
                 span.text-gray Bailar
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/1.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic I danced at a party yesterday. 
                   br 
@@ -44,7 +44,7 @@
                 br
                 span.text-gray Cantar
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/2.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic My brother has been singing for years.
                   br 
@@ -59,7 +59,7 @@
                 br
                 span.text-gray Ir de compras
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/3.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic We have gone shopping twice this month. 
                   br 
@@ -74,7 +74,7 @@
                 br
                 span.text-gray Salir a comer
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/4.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic I haven’t eaten out with my brother this year. 
                   br 
@@ -89,7 +89,7 @@
                 br
                 span.text-gray Dormir hasta tarde
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/5.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic I haven’t slept late in months. 
                   br 
@@ -104,7 +104,7 @@
                 br
                 span.text-gray Pescar
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/6.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic My father has been fishing for hours. 
                   br 
@@ -119,7 +119,7 @@
                 br
                 span.text-gray Revisar redes sociales 
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/7.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic Sara has been checking her social networks for an hour.  
                   br 
@@ -134,7 +134,7 @@
                 br
                 span.text-gray  Ir a turistear
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/8.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic My family has gone sightseeing in Europe.
                   br 
@@ -149,7 +149,7 @@
                 br
                 span.text-gray Pintar
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/9.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic The artist has been painting that picture for years. 
                   br 
@@ -164,7 +164,7 @@
                 br
                 span.text-gray Hacer yoga
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/10.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic My mother has been doing yoga since 2017.
                   br 
@@ -179,7 +179,7 @@
                 br
                 span.text-gray Relajarse
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/11.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic I have been chilling for 2 hours. 
                   br 
@@ -194,7 +194,7 @@
                 br
                 span.text-gray Contar historias
               .tarjeta.color-primario--borde.border-1.p-3.d-flex.flex-column.justify-content-center
-                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema1/1.wav')").m-auto.mb-2
+                Audio.color-primario.d-block(:audio="require('@/assets/audios/tema4/12.mp3')").m-auto.mb-2
                 p.text-center
                   span.r-1.fst-italic My teacher has been telling stories the whole class. 
                   br 

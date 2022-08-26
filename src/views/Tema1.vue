@@ -59,15 +59,15 @@
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="He didn’t play golf yesterday. <span class='r-5 fw-normal fst-normal'> / Él no jugó golf ayer. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/2.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="Shakespeare wrote many plays. <span class='r-5 fw-normal fst-normal'>/ Shakespeare escribió muchas obras de teatro.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/3.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="He worked there for six years.(He doesn’t work there anymore.) <span class='r-5 fw-normal fst-normal'> / Él trabajó ahí durante seis años. (Él ya no trabaja ahí.)</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/4.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -82,19 +82,19 @@
                 img.mb-3.m-auto(src='@/assets/curso/temas/4.svg', alt='' )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I bought a new car last week. <span class='r-5 fw-normal fst-normal'>/ Yo compré un coche nuevo la semana pasada. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/5.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="He learned to ride a bike two months ago. <span class='r-5 fw-normal fst-normal'>/ Él aprendió a andar en bicicleta hace dos meses.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/6.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="The new school year began yesterday.<span class='r-5 fw-normal fst-normal'>/ El nuevo año escolar comenzó ayer. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/7.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="The plane to New York departed ten minutes ago. <span class='r-5 fw-normal fst-normal'>/ El avión a Nueva York partió hace diez minutos. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/8.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -109,11 +109,11 @@
                 img.mb-3.m-auto(src='@/assets/curso/temas/5.svg', alt='' )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I was in the hospital for three days.  <span class='r-5 fw-normal fst-normal'>/ Yo estuve en el hospital durante tres días. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/9.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="She lived in London for two years. (She doesn’t live in London now.) <span class='r-5 fw-normal fst-normal'>/ Ella vivió en Londres durante dos años. (Ella no vive en Londres ahora.) </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/10.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -126,11 +126,11 @@
                 p <em>For example: </em> / Por ejemplo: 
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I didn’t shave today. (The day has passed. It means he will not shave today.) <span class='r-5 fw-normal fst-normal'> / No me afeité hoy. (El día ha pasado. Significa que no se afeitará hoy.)</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/11.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="She wrote three prescriptions this morning. (The morning is over.) <span class='r-5 fw-normal fst-normal'>/ Ella escribió tres recetas médicas esta mañana. (La mañana ha terminado.) </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/12.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -145,11 +145,11 @@
                 img.mb-3.m-auto(src='@/assets/curso/temas/7.svg', alt='' )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="The US space shuttle Atlantis landed in Florida this morning. <span class='r-5 fw-normal fst-normal'>/ El transbordador espacial estadounidense Atlantis aterrizó en Florida esta mañana. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/13.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="Denver won by the comfortable score of 24 -  10. <span class='r-5 fw-normal fst-normal'>/ Denver ganó por la cómoda puntuación de 24 - 10. </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/14.wav')"
                   )
       .col-lg-6 
         .tarjeta-titulo-up(style='background-color: #e1e8ff').p-4.mb-3
@@ -190,19 +190,19 @@
                 img.mb-3.m-auto(src='@/assets/curso/temas/9.svg', alt='' style='width: 287px')
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="She has phoned me four times so far. <span class='r-5 fw-normal fst-normal'> /  Ella me ha llamado cuatro veces hasta ahora.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/15.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="He has never played golf before. <span class='r-5 fw-normal fst-normal'>/ Él nunca ha jugado golf antes.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/16.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="My sister has written many books. (She still writes books.) <span class='r-5 fw-normal fst-normal'>/ Mi hermana ha escrito muchos libros. (Ella todavía escribe libros.) </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/17.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="He has worked there for six years. (He still works there.) <span class='r-5 fw-normal fst-normal'> / Él ha trabajado ahí durante seis años. (Él todavía trabaja ahí.)</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/18.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -215,19 +215,19 @@
                 p  <em>For example: </em> / Por ejemplo: 
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I have bought a new car. <span class='r-5 fw-normal fst-normal'> / Yo he comprado un nuevo auto.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/19.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="He has already learned to ride a bike. <span class='r-5 fw-normal fst-normal'> / Él ya ha aprendido a andar en bicicleta.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/20.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="The new school year has just begun. <span class='r-5 fw-normal fst-normal'> / El nuevo año escolar acaba de comenzar. (El nuevo año escolar ha acabado de comenzar.)</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/21.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="The plane to New York has already departed. <span class='r-5 fw-normal fst-normal'> / El avión a Nueva York ya ha partido.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/22.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -243,11 +243,11 @@
                 img.mb-3.m-auto(src='@/assets/curso/temas/11.svg', alt='' )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I have been in the hospital for three days. (I am still in the hospital.) <span class='r-5 fw-normal fst-normal'>/ Yo he estado en el hospital durante tres días. (Todavía estoy en el hospital.) </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/23.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="She has lived in London for two years. (She still lives in London.)  <span class='r-5 fw-normal fst-normal'>/ Ella ha vivido en Londres desde hace dos años. (Todavía vive en Londres.) </span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/24.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -261,11 +261,11 @@
 
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I haven’t shaved today. (The day is not finished. He may shave later or may not)  <span class='r-5 fw-normal fst-normal'>/ Yo no me he afeitado hoy. (El día no ha terminado. Puede que luego se afeite o puede que no.)</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/25.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="She has written three prescriptions this morning. (It is still morning.) <span class='r-5 fw-normal fst-normal'> / Ella ha escrito tres recetas esta mañana. (Todavía es de mañana.)</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/26.wav')"
                   )
               div
                 ol.lista-ol--cuadro
@@ -281,11 +281,11 @@
                 img.mb-3.m-auto(src='@/assets/curso/temas/13.svg', alt='' )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="The US space shuttle Atlantis has returned safely to earth. <span class='r-5 fw-normal fst-normal'>/ El transbordador espacial estadounidense Atlantis ha regresado sano y salvo a la Tierra.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/27.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="Denver Broncos have won the Super Bowl 2016. <span class='r-5 fw-normal fst-normal'>/ Los Broncos de Denver han ganado el Super Bowl 2016.</span>"
-                  :audio="require('@/assets/audios/tema1/1.wav')"
+                  :audio="require('@/assets/audios/tema1/28.wav')"
                   )
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
@@ -315,34 +315,34 @@ export default {
           personaje: 'Ana',
           textoIng: 'Hi! How ***?',
           textoEsp: 'Pendiente traduccion',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/1.wav'),
           palabra: 'have you been',
         },
         {
           personaje: 'Luisa',
           textoIng: 'Hey! Awesome! How about you?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/2.wav'),
         },
         {
           personaje: 'Ana',
           textoIng: 'I’m great! *** from my trip yesterday',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/3.wav'),
           palabra: 'I arrived',
         },
         {
           personaje: 'Luisa',
           textoIng: 'Really? Where did you go?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/4.wav'),
         },
         {
           personaje: 'Ana',
           textoIng:
             '*** to Italy. I have been there many times, but I love it.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/5.wav'),
           palabra: 'I went',
         },
         {
@@ -350,20 +350,20 @@ export default {
           textoIng:
             'Wow! *** there for the first time 2 years ago and I loved it too.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/6.wav'),
           palabra: 'I traveled',
         },
         {
           personaje: 'Ana',
           textoIng: 'Sure! Have you already planned your next trip?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/7.wav'),
         },
         {
           personaje: 'Luisa',
           textoIng: 'I haven’t, but *** many options this time.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a1/8.wav'),
           palabra: 'I have seen',
         },
       ],

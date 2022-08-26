@@ -52,7 +52,7 @@
                   .col-lg-5
                     TarjetaAudio.color-primario.bg-white.mb-3(
                       texto="It has been raining."
-                      :audio="require('@/assets/audios/tema1/1.wav')"
+                      :audio="require('@/assets/audios/tema3/1.mp3')"
                       )
                     p.ms-3 Ha estado lloviendo.
               div
@@ -70,7 +70,7 @@
                   .col-lg-5
                     TarjetaAudio.color-primario.bg-white.mb-3(
                       texto="I have been reading this book. (I’m still reading it.)"
-                      :audio="require('@/assets/audios/tema1/1.wav')"
+                      :audio="require('@/assets/audios/tema3/2.mp3')"
                       )
                     p.ms-3 He estado leyendo este libro. (Todavía lo estoy leyendo).
               div
@@ -88,7 +88,7 @@
                   .col-lg-5
                     TarjetaAudio.color-primario.bg-white.mb-3(
                       texto="He’s been playing football on and off for five years. "
-                      :audio="require('@/assets/audios/tema1/1.wav')"
+                      :audio="require('@/assets/audios/tema3/3.mp3')"
                       )
                     p.ms-3 Ha estado jugando al fútbol de forma intermitente durante cinco años.
               div
@@ -106,7 +106,7 @@
                   .col-lg-7
                     TarjetaAudio.color-primario.bg-white.mb-3(
                       texto="A: How long have you been studying English?<br>B: About a year. (I have been studying English for about a year.)"
-                      :audio="require('@/assets/audios/tema1/1.wav')"
+                      :audio="require('@/assets/audios/tema3/4.mp3')"
                       )
                     p.ms-3 <b>A:</b> ¿Cuánto tiempo has estado estudiando inglés?
                       br
@@ -158,8 +158,8 @@
           h4.text-center
             span.r-3 1st person
           TarjetaAudio.color-primario.bg-white.mb-3(
-            texto=""
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            texto="I have been"
+            :audio="require('@/assets/audios/tema3/5.wav')"
             )
       .col-lg-3.mb-lg-0.mb-3.h-100
         .tarjeta.rounded-0.p-4(style='background-color: #e1e8ff; border: 2px solid #6b8dfc').h-100
@@ -167,8 +167,8 @@
           h4.text-center
             span.r-3 2st person
           TarjetaAudio.color-primario.bg-white.mb-3(
-            texto=""
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            texto="You have been"
+            :audio="require('@/assets/audios/tema3/6.wav')"
             )
       .col-lg-6
         .tarjeta.rounded-0.p-4(style='background-color: #e1e8ff; border: 2px solid #6b8dfc').h-100
@@ -179,17 +179,17 @@
             .col-lg-4
               TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="He has been"
-                :audio="require('@/assets/audios/tema1/1.wav')"
+                :audio="require('@/assets/audios/tema3/7.wav')"
                 )
             .col-lg-4
               TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="She has been"
-                :audio="require('@/assets/audios/tema1/1.wav')"
+                :audio="require('@/assets/audios/tema3/8.wav')"
                 )
             .col-lg-4
               TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="It has been"
-                :audio="require('@/assets/audios/tema1/1.wav')"
+                :audio="require('@/assets/audios/tema3/9.wav')"
                 )
     .row.justify-content-center
       .col-lg-9
@@ -203,7 +203,7 @@
             span.r-4 1st person
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="We have been"
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema3/10.wav')"
             )
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-0.p-4(style='background-color: #d5d6f0; border: 2px solid #6b8dfc').h-100
@@ -212,7 +212,7 @@
             span.r-4 2st person
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="You have been"
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema3/11.wav')"
             )
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.rounded-0.p-4(style='background-color: #d5d6f0; border: 2px solid #6b8dfc').h-100
@@ -221,7 +221,7 @@
             span.r-4 3st person
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto="They have been"
-            :audio="require('@/assets/audios/tema1/1.wav')"
+            :audio="require('@/assets/audios/tema3/12.wav')"
             )
     .row.justify-content-center.mb-5
       .col-lg-3: img(src='@/assets/curso/temas/31.svg')
@@ -264,6 +264,10 @@
                   |Ustedes han estado <b>escribiendo</b> sus ensayos toda la tarde.
                   br
                   |Ellos han estado <b>haciendo</b> ejercicio desde el bachillerato.
+          TarjetaAudio.color-primario.bg-white.mb-3(
+            texto=""
+            :audio="require('@/assets/audios/tema3/13.mp3')"
+            )
       div(titulo="Negative / Negativa")
         .tarjeta.bg-white.p-4
           p.text-center
@@ -289,6 +293,10 @@
                   |Ustedes no han estado <b>escribiendo</b> sus ensayos toda la tarde.
                   br
                   |Ellos no han estado <b>haciendo</b> ejercicio desde el bachillerato.
+          TarjetaAudio.color-primario.bg-white.mb-3(
+              texto=""
+              :audio="require('@/assets/audios/tema3/14.mp3')"
+              )
       div(titulo="“Yes” or “No” Questions / Preguntas de “Sí” y “No”")
         .tarjeta.bg-white.p-4
           p.text-center
@@ -314,6 +322,10 @@
                   |¿Ustedes han estado <b>escribiendo</b> sus ensayos?
                   br
                   |¿Ellos han estado <b>haciendo</b> ejercicio desde el bachillerato?
+          TarjetaAudio.color-primario.bg-white.mb-3(
+            texto=""
+            :audio="require('@/assets/audios/tema3/15.mp3')"
+            )
       div(titulo="Information Questions / Preguntas de información")
         .tarjeta.bg-white.p-4
           p.text-center
@@ -339,6 +351,10 @@
                   |¿Ustedes <b>dónde</b> han estado <b>escribiendo</b> sus ensayos?
                   br
                   |¿Ellos <b>por qué</b> han estado <b>haciendo</b> ejercicio?
+          TarjetaAudio.color-primario.bg-white.mb-3(
+            texto=""
+            :audio="require('@/assets/audios/tema3/16.mp3')"
+            )
     .bg-card
       .row.justify-content-center.px-4
         .col-lg-4.py-5
@@ -410,48 +426,48 @@ export default {
         {
           personaje: 'Oscar',
           textoIng: 'Manuel! It’s been a long time!',
-          textoEsp: 'Pendiente traduccion',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          textoEsp: '',
+          audio: require('@/assets/audios/a3/1.mp3'),
         },
         {
           personaje: 'Manuel',
           textoIng: 'Hi! Yes, I know! I *** abroad',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/2.mp3'),
           palabra: 'have been living',
         },
         {
           personaje: 'Oscar',
           textoIng: 'That’s amazing! I didn’t know that.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/3.mp3'),
         },
         {
           personaje: 'Manuel',
           textoIng:
             'Sorry, I didn’t tell anyone because I wasn’t sure about that.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/4.mp3'),
         },
         {
           personaje: 'Oscar',
           textoIng: 'And where ***?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/5.mp3'),
           palabra: 'have you been living',
         },
         {
           personaje: 'Manuel',
           textoIng: '*** in England.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/6.mp3'),
           palabra: 'I have been living',
         },
         {
           personaje: 'Oscar',
           textoIng: 'That’s amazing!  about moving to Scotland.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/7.mp3'),
           palabra: 'I have been thinking',
         },
         {
@@ -459,7 +475,7 @@ export default {
           textoIng:
             'It is a great idea! Go ahead and do it! You won’t regret it.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a3/8.mp3'),
         },
       ],
     },
