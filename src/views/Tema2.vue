@@ -14,7 +14,7 @@
             p.fst-italic There are a lot of different discourse markers in English. Depending on the tense or the context, it is necessary to use the appropriate words. For example, in everyday speech, words such as <b>so, right, well, ok or anyway</b> are common; however, when speaking about the past, there are some other words and expressions that have to be used in order to connect ideas. For example:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 Traduccion no presente
+              span.r-5 Hay muchos marcadores del discurso en inglés. Dependiendo del tiempo o del contexto, es necesario utilizar las palabras adecuadas. Por ejemplo, en el discurso cotidiano, palabras como #[i #[b so, right, well, ok o anyway]] son comunes; sin embargo, cuando se habla del pasado, hay otras palabras y expresiones que deben utilizarse para conectar ideas. Por ejemplo:
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     .row.justify-content-center.mb-5
@@ -58,7 +58,7 @@
                     texto="Next, she called her sister.   "
                     :audio="require('@/assets/audios/tema2/3.mp3')"
                     )
-                  p.ms-3 Después, llamó a su hermTom.
+                  p.ms-3 Después, llamó a su hermana Tom.
           div(titulo='4. After / Después')
             .tarjeta.bg-white.p-4
               p <em>It shows what’s following in time. </em>
@@ -172,7 +172,6 @@ export default {
           textoIng: 'No! really?',
           textoEsp: '',
           audio: require('@/assets/audios/a2/3.mp3'),
-          palabra: 'I arrived',
         },
         {
           personaje: 'Maria',

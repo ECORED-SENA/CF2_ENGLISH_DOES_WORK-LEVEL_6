@@ -23,7 +23,7 @@
               span.r-5 El presente perfecto continuo es un tiempo verbal que se usa para referirse a un tiempo no especificado entre 'antes de ahora' y 'ahora', por lo que muestra duración e importancia en el tiempo presente. El emisor está hablando de una acción o actividad que comenzó, pero quizás no terminó en ese periodo de tiempo.
                 br
                 br
-                |El presente perfecto continuo se forma usando el tiempo presente del verbo have + el participio pasado de be + el participio presente del verbo principal.
+                |El presente perfecto continuo se forma usando el tiempo presente del verbo #[i have +] el participio pasado de #[i be +] el participio presente del verbo principal.
                 br
                 br
                 |A continuación, veremos casos en los que se usa el tiempo presente perfecto continuo:
@@ -62,7 +62,7 @@
                     p.fst-italic We use the present perfect continuous tense for a single activity that began at a point in the past and is still continuing:
                   .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
                     p 
-                      span.r-5 Usamos el tiempo presente perfecto continuo para una sola actividad que comenzóen un punto en el pasado y aún continúa: 
+                      span.r-5 Usamos el tiempo presente perfecto continuo para una sola actividad que comenzó en un punto en el pasado y aún continúa: 
                   a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3') Ver traducción
                 p.text-center <em>For example</em> / Por ejemplo: 
                 .row.justify-content-center
@@ -234,7 +234,7 @@
               |We are going to see how these verbs interact with the rest of the words in the sentences in the past progressive.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp1}")
             p 
-              span.r-5 Algo que hay que resaltar a la hora de estructurar oraciones en presente perfecto continuo es que se usa “sujeto + have been / has been + verbo principal terminado en -ing” al comienzo de la oración. Básicamente, si ya se sabe cómo estructurar oraciones en el tiempo presente perfecto, estructurar el presente perfecto continuo va a ser muy sencillo, porque es prácticamente lo mismo, pero con el verbo "to be" siempre en forma de participio pasado (been) y, después de este, el verbo principal en forma de participio presente (terminado en “-ing”).
+              span.r-5 Algo que hay que resaltar a la hora de estructurar oraciones en presente perfecto continuo es que se usa “sujeto + #[i have been / has been] + verbo principal terminado en #[i -ing”] al comienzo de la oración. Básicamente, si ya se sabe cómo estructurar oraciones en el tiempo presente perfecto, estructurar el presente perfecto continuo va a ser muy sencillo, porque es prácticamente lo mismo, pero con el verbo #[i "to be"] siempre en forma de participio pasado #[i (been)] y, después de este, el verbo principal en forma de participio presente (terminado en #[i “-ing”)].
                 br  
                 br  
                 |Veamos cómo estos verbos interactúan con el resto de las palabras en las oraciones en pasado progresivo:
@@ -375,7 +375,7 @@
               p.fst-italic Both “have not been” and its contraction “haven’t been” are correct, the same with “has not been” and its contraction “hasn’t been”. But keep in mind that for formal contexts it is not recommended to use contractions.
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp8}")
               p 
-                span.r-5 Tanto "have not been" como su contracción "haven't been" son correctos, lo mismo con "has not been" y su contracción "hasn't been". Pero hay que tener en cuenta que para contextos formales no se recomienda usar contracciones.
+                span.r-5 Tanto #[i "have not been"] como su contracción #[i "haven't been"] son correctos, lo mismo con #[i "has not been"] y su contracción #[i "hasn't been".] Pero hay que tener en cuenta que para contextos formales no se recomienda usar contracciones.
 
             a.boton-traduccion(@click='ocultarEsp8 = !ocultarEsp8') Ver traducción
     .card.rounded-0(style='background-color: #a6bbff').p-5.mb-4
@@ -465,7 +465,7 @@ export default {
         },
         {
           personaje: 'Oscar',
-          textoIng: 'That’s amazing!  about moving to Scotland.',
+          textoIng: 'That’s amazing! *** about moving to Scotland.',
           textoEsp: '',
           audio: require('@/assets/audios/a3/7.mp3'),
           palabra: 'I have been thinking',

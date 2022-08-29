@@ -17,7 +17,11 @@
               | To solve this, we are going to see the differences between them and their uses:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
             p 
-              span.r-5 Traduccion no presente
+              span.r-5 El presente perfecto y el pasado simple son temas que tienden a confundirse debido a sus similitudes, sobre todo, la posibilidad de narrar eventos pasados con ambos tiempos verbales genera que se usen de manera equívoca en algunos casos.
+                br
+                br
+                |Para solucionar esto, vamos a ver las diferencias que hay entre ellos y sus usos:
+
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     .row.justify-content-center.mb-5
@@ -52,6 +56,9 @@
                     span 1
                   | <em>The past simple talks about actions and events in the past that are now finished.</em> 
                   span.text-gray / El pasado simple habla acerca de acciones y eventos en el pasado que ya terminaron.
+                  br
+                  br
+                  | <em>For example: </em> / Por ejemplo: 
                 img.mb-3.m-auto(src='@/assets/curso/temas/3.svg', alt='' style='width: 287px')
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="She phoned me two hours ago.  <span class='r-5 fw-normal fst-normal'>/ Ella me llamó hace dos horas.</span>"
@@ -75,7 +82,7 @@
                   .lista-ol--cuadro__vineta.py-4
                     span 2
                   | <em>To indicate that something happened at a specific time in the past </em>  
-                  span.text-gray Para indicar que algo sucedió en un momento específico en el pasado.
+                  span.text-gray / Para indicar que algo sucedió en un momento específico en el pasado.
                   br
                   br
                   | <em>For example: </em> / Por ejemplo: 
@@ -89,7 +96,7 @@
                   :audio="require('@/assets/audios/tema1/6.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
-                  texto="The new school year began yesterday.<span class='r-5 fw-normal fst-normal'>/ El nuevo año escolar comenzó ayer. </span>"
+                  texto="The new school year began yesterday. <span class='r-5 fw-normal fst-normal'>/ El nuevo año escolar comenzó ayer. </span>"
                   :audio="require('@/assets/audios/tema1/7.wav')"
                   )
                 TarjetaAudio.color-primario.bg-white.mb-3(
@@ -102,7 +109,7 @@
                   .lista-ol--cuadro__vineta.py-4
                     span 3
                   | <em>We use the past simple for a state in the past in a period which is finished. </em> 
-                  span.text-gray Usamos el pasado simple para un estado en el pasado en un periodo que ha terminado.
+                  span.text-gray / Usamos el pasado simple para un estado en el pasado en un periodo que ha terminado.
                   br
                   br
                   | <em>For example: </em> / Por ejemplo: 
@@ -121,8 +128,8 @@
                   .lista-ol--cuadro__vineta.py-4
                     span 4
                   | <em>We use the past simple with “today”, “this morning”, “this week”, etc., when these periods are finished at the time of speaking. </em> 
-                  span.text-gray Usamos el pasado simple con “today”, “this morning”, “this week”, etc., cuando estos periodos ya se han terminado al momento de hablar.
-                img.mb-3.m-auto(src='@/assets/curso/temas/3.svg', alt='' style='width: 287px')
+                  span.text-gray / Usamos el pasado simple con “today”, “this morning”, “this week”, etc., cuando estos periodos ya se han terminado al momento de hablar.
+                img.mb-3.m-auto(src='@/assets/curso/temas/c3.svg', alt='' style='width: 287px')
                 p <em>For example: </em> / Por ejemplo: 
                 TarjetaAudio.color-primario.bg-white.mb-3(
                   texto="I didn’t shave today. (The day has passed. It means he will not shave today.) <span class='r-5 fw-normal fst-normal'> / No me afeité hoy. (El día ha pasado. Significa que no se afeitará hoy.)</span>"
@@ -137,8 +144,8 @@
                   li
                   .lista-ol--cuadro__vineta.py-4
                     span 5
-                  | <em>The past simple is used to give the details </em> 
-                  span.text-gray El pasado simple se usa para dar los detalles.
+                  | <em>The past simple is used to give the details. </em> 
+                  span.text-gray / El pasado simple se usa para dar los detalles.
                   br
                   br
                   | <em>For example: </em> / Por ejemplo:
@@ -210,7 +217,7 @@
                   .lista-ol--cuadro__vineta.azul.py-4
                     span 2
                   | <em>To talk about something that happened in the past, but we don’t specify when it has happened (because we don’t know or it is not important.) </em> 
-                  span.text-gray Para hablar de algo que sucedió en el pasado, pero no especificamos cuándo sucedió (porque no sabemos o no es importante).
+                  span.text-gray / Para hablar de algo que sucedió en el pasado, pero no especificamos cuándo sucedió (porque no sabemos o no es importante).
                 img.mb-3.m-auto(src='@/assets/curso/temas/10.svg', alt='' )
                 p  <em>For example: </em> / Por ejemplo: 
                 TarjetaAudio.color-primario.bg-white.mb-3(
@@ -235,7 +242,7 @@
                   .lista-ol--cuadro__vineta.azul.py-4
                     span 3
                   | <em>We use the present perfect for a state which has gone on up to the present. </em> 
-                  span.text-gray Usamos el presente perfecto para un estado que ha continuado hasta el presente.
+                  span.text-gray / Usamos el presente perfecto para un estado que ha continuado hasta el presente.
                   br
                   br
                   | <em>For example: </em> / Por ejemplo: 
@@ -255,7 +262,7 @@
                   .lista-ol--cuadro__vineta.azul.py-4
                     span 4
                   | <em>We use the present perfect with “today”, “this morning”, “this week”, etc., when these periods are not finished at the time of speaking.</em> 
-                  span.text-gray Usamos el presente perfecto con “today”, “this morning”, “this week”, etc., cuando estos periodos no se han terminado al momento de hablar.
+                  span.text-gray / Usamos el presente perfecto con “today”, “this morning”, “this week”, etc., cuando estos periodos no se han terminado al momento de hablar.
                 img.mb-3.m-auto(src='@/assets/curso/temas/12.svg', alt='' style='width: 287px')
                 p <em>For example: </em> / Por ejemplo: 
 
@@ -273,7 +280,7 @@
                   .lista-ol--cuadro__vineta.azul.py-4
                     span 5
                   | <em>The present perfect is used to give new information (a general summary.) </em> 
-                  span.text-gray El presente perfecto se usa para dar nueva información (un resumen general).
+                  span.text-gray / El presente perfecto se usa para dar nueva información (un resumen general).
                   br
                   br
                   | <em>For example: </em> / Por ejemplo: 

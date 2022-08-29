@@ -123,39 +123,39 @@ export default {
   complementario: [
     {
       tema:
-        'Present perfect vs past simple (Presente perfecto vs pasado simple)',
+        ' <em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
       referencia:
-        'BBC Learning English. (2020). Present perfect and past simple - 6 Minute Grammar [Video]. YouTube. ',
+        'BBC Learning English. (2020). <em>Present perfect and past simple - 6 Minute Grammar [Video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=jwmKjgwlMk8',
     },
     {
       tema:
-        'Present perfect vs past simple (Presente perfecto vs pasado simple)',
+        '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
       referencia:
-        'BC Learning English. (2018). Present Perfect and Past Simple: The Grammar Gameshow Episode 29 [Video]. YouTube. ',
+        'BC Learning English. (2018). <em>Present Perfect and Past Simple: The Grammar Gameshow Episode 29 [Video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XgLdOI6UsJY',
     },
     {
       tema:
-        'Present perfect vs past simple (Presente perfecto vs pasado simple)',
+        '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
       referencia:
-        'BBC Learning English. (2018). The past simple and past perfect tenses - Learners Questions [Video]. YouTube. ',
+        'BBC Learning English. (2018). <em>The past simple and past perfect tenses - Learners Questions [Video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=jwmKjgwlMk8',
     },
     {
       tema:
-        'Present perfect vs past simple (Presente perfecto vs pasado simple)',
+        '<em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)',
       referencia:
-        'BBC. (s. f.). Unit 26: It must be love. Present perfect and past simple. Learning English. ',
+        'BBC. (s. f.). <em>Unit 26: It must be love. Present perfect and past simple. Learning English.</em> ',
       tipo: 'Artículo',
       link:
         'https://www.bbc.co.uk/learningenglish/course/lower-intermediate/unit-26/session-2',
     },
     {
-      tema: 'Present perfect continuous (Presente perfecto continuo)',
+      tema: '<em>Present perfect continuous</em> (Presente perfecto continuo)',
       referencia:
         'Equipo académico. (2021). ¿Se te dificulta el present perfect continuous? Conoce aquí las bases para perfeccionarlo. British Council México. ',
       tipo: 'Artículo',
