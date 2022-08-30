@@ -238,48 +238,48 @@ export default {
           textoIng:
             'Hey David, did you practice many sports when you were a child?',
           textoEsp: 'Pendiente traduccion',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/1.wav'),
         },
         {
           personaje: 'David',
           textoIng:
             'Sure! My parents have been registering me to try new activities.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/2.mp3'),
         },
         {
           personaje: 'Sandra',
           textoIng: 'What sports have you practiced?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/3.wav'),
         },
         {
           personaje: 'David',
           textoIng:
             'Well, I have played ***, volleyball, football, and of course basketball. ',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/4.mp3'),
           palabra: 'tennis',
         },
         {
           personaje: 'Sandra',
           textoIng: 'Wow! Have you ever tried any other activities?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/5.wav'),
         },
         {
           personaje: 'David',
           textoIng:
             'Yes! I have done yoga, I have gone camping, I have *** and played chess. ',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/6.mp3'),
           palabra: 'fished',
         },
         {
           personaje: 'Sandra',
           textoIng: 'I have always loved fishing! Have you been *** recently?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/7.wav'),
           palabra: 'fishing',
         },
         {
@@ -287,7 +287,7 @@ export default {
           textoIng:
             'Not really, but three months ago something incredible happened, I got a small shark, it was terrifying!',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.wav'),
+          audio: require('@/assets/audios/a4/8.mp3'),
         },
       ],
     },
