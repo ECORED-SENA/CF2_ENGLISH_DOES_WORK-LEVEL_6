@@ -21,7 +21,7 @@
       .col-lg-5: img(src='@/assets/curso/temas/0.jpg', alt='')
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/KSdzPzOQ2Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uwjeyNFJ5rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       
 </template>
