@@ -58,7 +58,7 @@
                     texto="Next, she called her sister.   "
                     :audio="require('@/assets/audios/tema2/3.mp3')"
                     )
-                  p.ms-3 Después, llamó a su hermana Tom.
+                  p.ms-3 Después, llamó a su hermana.
           div(titulo='4. After / Después')
             .tarjeta.bg-white.p-4
               p <em>It shows what’s following in time. </em>

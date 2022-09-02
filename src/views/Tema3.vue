@@ -244,26 +244,6 @@
           p.text-center
             span.r-4 Affirmative / Afirmativa
           img.mb-4(src='@/assets/curso/temas/32.svg', alt='')
-          .row.justify-content-center.mb-3
-            .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/33.svg', alt='')
-            .col-lg-6
-              p 
-                span.text-gray Yo he estado <b>jugando</b> al tenis recientemente.
-                  br
-                  |Tú has estado <b>escuchando</b> música todo el día.
-                  br
-                  |Él ha estado <b>trabajando</b> aquí desde el año pasado.
-                  br
-                  |Ella ha estado <b>estudiando</b> para sus exámenes.
-                  br
-                  |(Eso) Ha estado <b>comiendo</b> mucho últimamente.
-                  br
-                  br
-                  |Nosotros hemos estado <b>viendo</b> Netflix por seis horas.
-                  br
-                  |Ustedes han estado <b>escribiendo</b> sus ensayos toda la tarde.
-                  br
-                  |Ellos han estado <b>haciendo</b> ejercicio desde el bachillerato.
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto=""
             :audio="require('@/assets/audios/tema3/13.mp3')"
@@ -273,26 +253,6 @@
           p.text-center
             span.r-4 Negative / Negativa
           img.mb-4(src='@/assets/curso/temas/34.svg', alt='')
-          .row.justify-content-center.mb-3
-            .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/35.svg', alt='')
-            .col-lg-6
-              p 
-                span.text-gray Yo no he estado <b>jugando</b> al tenis recientemente.
-                  br
-                  |Tú no has estado <b>escuchando</b> música todo el día.
-                  br
-                  |Él no ha estado <b>trabajando</b> aquí desde el año pasado.
-                  br
-                  |Ella no ha estado <b>estudiando</b> para sus exámenes.
-                  br
-                  |(Eso) No ha estado <b>comiendo</b> mucho últimamente.
-                  br
-                  br
-                  |Nosotros no hemos estado <b>viendo</b> Netflix por seis horas.
-                  br
-                  |Ustedes no han estado <b>escribiendo</b> sus ensayos toda la tarde.
-                  br
-                  |Ellos no han estado <b>haciendo</b> ejercicio desde el bachillerato.
           TarjetaAudio.color-primario.bg-white.mb-3(
               texto=""
               :audio="require('@/assets/audios/tema3/14.mp3')"
@@ -302,26 +262,6 @@
           p.text-center
             span.r-4 “Yes” or “No” Questions / Preguntas de “Sí” y “No”
           img.mb-4(src='@/assets/curso/temas/36.svg', alt='')
-          .row.justify-content-center.mb-3
-            .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/37.svg', alt='')
-            .col-lg-6
-              p 
-                span.text-gray ¿Yo he estado <b>jugando</b> al tenis recientemente?
-                  br
-                  |¿Tú has estado <b>escuchando</b> música todo el día?
-                  br
-                  |¿Él ha estado <b>trabajando</b> aquí desde el año pasado?
-                  br
-                  |¿Ella ha estado <b>estudiando</b> para sus exámenes?
-                  br
-                  |¿(Eso) Ha estado <b>comiendo</b> mucho últimamente?
-                  br
-                  br
-                  |¿Nosotros hemos estado <b>viendo</b> Netflix por seis horas?
-                  br
-                  |¿Ustedes han estado <b>escribiendo</b> sus ensayos?
-                  br
-                  |¿Ellos han estado <b>haciendo</b> ejercicio desde el bachillerato?
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto=""
             :audio="require('@/assets/audios/tema3/15.mp3')"
@@ -331,26 +271,6 @@
           p.text-center
             span.r-4 Information Questions / Preguntas de información
           img.mb-4(src='@/assets/curso/temas/38.svg', alt='')
-          .row.justify-content-center.mb-3
-            .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/39.svg', alt='')
-            .col-lg-6
-              p 
-                span.text-gray ¿Yo <b>por qué</b> he estado <b>jugando</b> al tenis?
-                  br
-                  |¿Tú <b>dónde</b> has estado <b>escuchando</b> música?
-                  br
-                  |¿Él por <b>cuánto</b> tiempo ha estado <b>trabajando</b> aquí?
-                  br
-                  |¿Ella <b>cómo</b> ha estado <b>estudiando</b> para sus exámenes?
-                  br
-                  |¿(Eso) cuánto ha estado <b>comiendo</b>?
-                  br
-                  br
-                  |¿Nosotros <b>qué</b> hemos estado <b>viendo</b> últimamente?
-                  br
-                  |¿Ustedes <b>dónde</b> han estado <b>escribiendo</b> sus ensayos?
-                  br
-                  |¿Ellos <b>por qué</b> han estado <b>haciendo</b> ejercicio?
           TarjetaAudio.color-primario.bg-white.mb-3(
             texto=""
             :audio="require('@/assets/audios/tema3/16.mp3')"
