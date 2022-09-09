@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 <em>We have been enjoying our free time a lot</em> (Hemos estado disfrutando mucho de nuestro tiempo libre)
-    .row.justify-content-center.mb-5
+      h1(data-aos='fade-right') <em>We have been enjoying our free time a lot</em> (Hemos estado disfrutando mucho de nuestro tiempo libre)
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-7.mb-lg-0.mb-3
         p
           span.r-4.fst-italic.fw-normal When talking about leisure activities or free time activities, it is important to take into account all of those activities that we do in order to have fun. It is not about all of those obligations that we have in our daily life. 
@@ -15,11 +15,13 @@
           span.text-gray Cuando se habla de actividades de ocio o actividades de tiempo libre, es importante tener en cuenta todas aquellas actividades que realizamos para divertirnos. No se trata de todas esas obligaciones que tenemos en nuestra vida diaria.
 
       .col-lg-5: img(src='@/assets/curso/temas/45.svg')
-    .margin-n.p-5(style='background-color: #d5d6f0').mb-5
+    .margin-n.p-5(style='background-color: #d5d6f0').mb-5(data-aos='zoom-in')
       p.text-center Observe y escuche vocabulario de algunas actividades de ocio o actividades de tiempo libre:
-      .tarjeta.bg-white.p-4
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta.color-primario.p-4.h-100
+      .tarjeta.bg-white.p-4.position-relative
+        .img-1: img(src='@/assets/curso/temas/adorno1.svg', alt='')
+        .img-2: img(src='@/assets/curso/temas/adorno2.svg', alt='')
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4").slyder-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/46.svg' alt='AvatarTop')
@@ -34,7 +36,7 @@
                   span.r-1.fst-italic I danced at a party yesterday. 
                   br 
                   | Yo bailé en una fiesta ayer.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/47.svg' alt='AvatarTop')
@@ -49,7 +51,7 @@
                   span.r-1.fst-italic My brother has been singing for years.
                   br 
                   | Mi hermano ha estado cantando por años.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/48.svg' alt='AvatarTop')
@@ -64,7 +66,7 @@
                   span.r-1.fst-italic We have gone shopping twice this month. 
                   br 
                   | Nosotros hemos ido de compras dos veces este mes.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/49.svg' alt='AvatarTop')
@@ -79,7 +81,7 @@
                   span.r-1.fst-italic I haven’t eaten out with my brother this year. 
                   br 
                   | No he salido a comer con mi hermano este año.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/50.svg' alt='AvatarTop')
@@ -94,7 +96,7 @@
                   span.r-1.fst-italic I haven’t slept late in months. 
                   br 
                   | No he dormido hasta tarde en meses.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
@@ -109,7 +111,7 @@
                   span.r-1.fst-italic My father has been fishing for hours. 
                   br 
                   | Mi papá ha estado pescando por horas. 
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/52.svg' alt='AvatarTop')
@@ -124,7 +126,7 @@
                   span.r-1.fst-italic Sara has been checking her social networks for an hour.  
                   br 
                   | Sara ha estado revisando sus redes sociales por una hora.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/53.svg' alt='AvatarTop')
@@ -139,7 +141,7 @@
                   span.r-1.fst-italic My family has gone sightseeing in Europe.
                   br 
                   | Mi familia ha ido a turistear en Europa.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/54.svg' alt='AvatarTop')
@@ -154,7 +156,7 @@
                   span.r-1.fst-italic The artist has been painting that picture for years. 
                   br 
                   | El artista ha estado pintando esa pintura por años.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/55.svg' alt='AvatarTop')
@@ -169,7 +171,7 @@
                   span.r-1.fst-italic My mother has been doing yoga since 2017.
                   br 
                   | Mi mamá ha estado haciendo yoga desde 2017. 
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/56.svg' alt='AvatarTop')
@@ -184,7 +186,7 @@
                   span.r-1.fst-italic I have been chilling for 2 hours. 
                   br 
                   | Yo he estado relajándome por 2 horas.
-          .tarjeta.color-primario.p-4.h-100
+          .tarjeta.color-primario.p-4.h-100.hbg--4.h-100.hbg--3.h-100.h-100
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/temas/57.svg' alt='AvatarTop')
@@ -201,7 +203,7 @@
                   | Mi profesor ha estado contando historias toda la clase.
 
 
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos='zoom-in')
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completa la conversación
       template(#descripcion-actividad)        
@@ -315,4 +317,17 @@ export default {
   background-repeat: repeat
   background-size: cover
   background-position: center
+.img-1
+  position: absolute
+  width: 75px
+  top: 0
+  right: 0
+  transform: translate(30%,-30%)
+
+.img-2
+  position: absolute
+  width: 83px
+  bottom: 0
+  left: 0
+  transform: translate(-30%,30%)
 </style>

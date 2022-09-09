@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 <em>Discourse markers: sequential past time linkers</em> (Marcadores de discurso: conectores secuenciales de tiempo pasado)      
-    .row.justify-content-center.mb-5
+      h1(data-aos='fade-right') <em>Discourse markers: sequential past time linkers</em> (Marcadores de discurso: conectores secuenciales de tiempo pasado)      
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-5: img(src='@/assets/curso/temas/14.svg')
       .col-lg-7.mb-lg-0.mb-3
         .contenedor-traductor
@@ -17,7 +17,7 @@
               span.r-5 Hay muchos marcadores del discurso en inglés. Dependiendo del tiempo o del contexto, es necesario utilizar las palabras adecuadas. Por ejemplo, en el discurso cotidiano, palabras como #[i #[b so, right, well, ok o anyway]] son comunes; sin embargo, cuando se habla del pasado, hay otras palabras y expresiones que deben utilizarse para conectar ideas. Por ejemplo:
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-7
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-3")
           div(titulo='1. First / Primero')
@@ -26,7 +26,7 @@
                 span.text-gray / Muestra el comienzo, la fase inicial de la acción.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/15.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/15.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="First, I bought a shirt."
@@ -39,7 +39,7 @@
                 span.text-gray / Muestra la fase siguiente.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/16.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Then, we sent a box.  "
@@ -52,7 +52,7 @@
                 span.text-gray / Muestra lo que ocurre inmediatamente después de otra cosa.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/17.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/17.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Next, she called her sister.   "
@@ -65,25 +65,25 @@
                 span.text-gray / Muestra lo que sigue en el tiempo.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/18.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="After eating, I washed my hands. "
                     :audio="require('@/assets/audios/tema2/4.mp3')"
                     )
                   p.ms-3 Después de comer, me lavé las manos.
-      .col-lg-5: img(src='@/assets/curso/temas/19.png', alt='')
+      .col-lg-5: img(src='@/assets/curso/temas/19.png', alt='')(data-aos='zoom-in')
     .row.justify-content-center.mb-5
-      .col-lg-5: img(src='@/assets/curso/temas/20.svg', alt='')
+      .col-lg-5: img(src='@/assets/curso/temas/20.svg', alt='')(data-aos='zoom-in')
       .col-lg-7
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-3")
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta-3")(data-aos='fade-right')
           div(titulo='5. After that / Después de eso')
             .tarjeta.bg-white.p-4
               p <em>It shows what’s next after another event. </em>
                 span.text-gray / Muestra lo que sigue después de otro evento.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/21.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/21.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="We went to the park. After that, we cooked the meat.  "
@@ -96,7 +96,7 @@
                 span.text-gray / Muestra lo que ocurrió en un momento anterior. 
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/22.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Before cleaning, I organized the whole house. "
@@ -109,7 +109,7 @@
                 span.text-gray / Muestra lo que ocurrió en un momento anterior a otro acontecimiento.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/23.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="I called my brother. Before that, I had to look for his phone number. "
@@ -122,14 +122,14 @@
                 span.text-gray / Muestra algo que ocurre en último lugar en un proceso.
               p.text-center.fst-italic.fw-bold For example: 
               .row.justify-content-center.mb-5
-                .col-lg-2: img(src='@/assets/curso/temas/24.svg', alt='')
+                .col-lg-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/24.svg', alt='')
                 .col-lg-5
                   TarjetaAudio.color-primario.bg-white.mb-3(
                     texto="Finally, I started my trip to New York.  "
                     :audio="require('@/assets/audios/tema2/8.mp3')"
                     )
                   p.ms-3 Finalmente, inicié mi viaje a Nueva York.
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos='zoom-in')
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completa la conversación
       template(#descripcion-actividad)

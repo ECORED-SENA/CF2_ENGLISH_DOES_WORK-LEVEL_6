@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 <em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)
+      h1(data-aos='fade-right') <em>Present perfect vs past simple</em> (Presente perfecto vs pasado simple)
     .row.justify-content-center.mb-5
-      .col-lg-5: img(src='@/assets/curso/temas/1.svg')
+      .col-lg-5: img(src='@/assets/curso/temas/1.svg')(data-aos='fade-right')
       .col-lg-7.mb-lg-0.mb-3
-        .contenedor-traductor
+        .contenedor-traductor(data-aos='fade-right')
           .contenedor-traductor__eng
             p.fst-italic The present perfect and the past simple are topics that tend to be confused with each other due to their similarities, especially the possibility of narrating past events with both verb tenses, which causes them to be used equivocally in some cases.
               br
@@ -24,7 +24,7 @@
 
 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-6.h-100 
         .tarjeta-titulo-up(style='background-color: #FFF0F1').p-4.mb-3
           .tarjeta-titulo-up__titulo
@@ -45,8 +45,8 @@
               br
               span.r-3.fst-italic.fw-normal Cases in which the past simple is used: 
               | / Casos en los que se usa el pasado simple:
-        img.mb-3(src='@/assets/curso/temas/2.svg', alt='')  
-        .tarjeta.rounded-0.p-3(style='background-color: #FFDFE0')
+        img.mb-3(src='@/assets/curso/temas/2.svg', alt='')(data-aos='fade-right')  
+        .tarjeta.rounded-0.p-3(style='background-color: #FFDFE0')(data-aos='fade-right')
           .tarjeta.bg-white.p-4
             SlyderA(tipo='b')
               div
@@ -178,8 +178,8 @@
               br
               span.r-3.fst-italic.fw-normal Cases in which the present perfect is used: 
               |  / Casos en los que se usa el presente perfecto:
-        img.mb-3(src='@/assets/curso/temas/8.svg', alt='')  
-        .tarjeta.rounded-0.p-3(style='background-color: #a6bbff')
+        img.mb-3(src='@/assets/curso/temas/8.svg', alt='')(data-aos='fade-right')  
+        .tarjeta.rounded-0.p-3(style='background-color: #a6bbff')(data-aos='fade-right')
           .tarjeta.bg-white.p-4
             SlyderA(tipo='b')
               div
@@ -294,7 +294,7 @@
                   texto="Denver Broncos have won the Super Bowl 2016. <span class='r-5 fw-normal fst-normal'>/ Los Broncos de Denver han ganado el Super Bowl 2016.</span>"
                   :audio="require('@/assets/audios/tema1/28.wav')"
                   )
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos='zoom-in')
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completa la conversación
       template(#descripcion-actividad)

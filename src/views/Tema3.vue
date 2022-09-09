@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 <em>Present perfect continuous</em> (Presente perfecto continuo)
+      h1(data-aos='fade-right') <em>Present perfect continuous</em> (Presente perfecto continuo)
     .row.justify-content-center.mb-5
-      .col-lg-5: img(src='@/assets/curso/temas/25.svg')
+      .col-lg-5: img(src='@/assets/curso/temas/25.svg')(data-aos='zoom-in')
       .col-lg-7.mb-lg-0.mb-3
-        .contenedor-traductor
+        .contenedor-traductor(data-aos='fade-right')
           .contenedor-traductor__eng
             p.fst-italic The present perfect continuous is a tense used to refer to an unspecified time between ‘before now’ and ‘now’, so it shows duration and importance in the present time. The speaker is talking about an action or activity that started but perhaps did not finish in that period of time.
               br
@@ -30,7 +30,7 @@
 
 
           a.boton-traduccion(@click='ocultarEsp1 = !ocultarEsp1') Ver traducción
-    .bg-card.p-4.mb-5
+    .bg-card.p-4.mb-5(data-aos='fade-right')
       .row.justify-content-center.align-items-end.mb-5
         .col-lg-3
           img(src='@/assets/curso/temas/26.png', alt='')
@@ -111,12 +111,13 @@
                     p.ms-3 <b>A:</b> ¿Cuánto tiempo has estado estudiando inglés?
                       br
                       |<b>B:</b> Como un año. (He estado estudiando inglés durante aproximadamente un año.)
+    Separador
     #t_3_1.titulo-segundo.color-primario(data-aos='fade-right')
       h2 3.1  <em>Verbs ending in “-ing”</em> (Verbos con terminación “-ing”)
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-5: img(src='@/assets/curso/temas/27.jpg')
       .col-lg-7.mb-lg-0.mb-3
-        .contenedor-traductor
+        .contenedor-traductor(data-aos='fade-right')
           .contenedor-traductor__eng
             p.fst-italic To use the continuous tenses (also called progressive), we need to use the main verbs in a verbal pattern called “present participle”, a pattern that is characterized by the fact that the verb always ends in “-ing”.
               br
@@ -129,31 +130,32 @@
                 br
                 |Para escribir un verbo terminado en "-ing", se necesita saber la ortografía correcta, es por eso que a continuación están enunciadas las reglas para escribir correctamente verbos terminados en "-ing":
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6') Ver traducción
-    figure.mb-5
+    figure.mb-5(data-aos='fade-right')
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/tsaNgMHca2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_3_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 3.2  <em>Affirmative, negative and interrogative structures</em> (Estructuras afirmativas, negativas e interrogativas)
-    .tarjeta.rounded-0.p-1(style='background-color: #f0f4ff').mb-5
-      .row.justify-content-center.align-items-center
-        .col-lg-8
-          p
+    .tarjeta.rounded-0.p-4.px-5.position-relative(style='background-color: #f0f4ff').mb-5
+      .row.align-items-center
+        .col-lg-9
+          p.mb-0(data-aos='fade-right')
             span.r-4.fw-normal.fst-italic For the present perfect continuous tense, the verb <b>"to have"</b> is used as an auxiliary, conjugated in the present simple (have / has), together with the past participle of the verb “to be” <b>(been)</b>. Let's see how to use the auxiliaries for the present perfect continuous tense with each subject pronoun:
             br
             br
             span.text-gray Para el tiempo presente perfecto continuo, se usa como auxiliar el verbo <b>"to have"</b>, conjugado en presente simple (have/has), junto con el participio pasado del verbo <em>"to be"</em> <b>(been)</b>. Veamos cómo usar los auxiliares del tiempo presente perfecto continuo con cada pronombre de sujeto:
-        .col-lg-3: img(src='@/assets/curso/temas/28.svg', alt='')
-    p.text-center
+        .imagen-absolute.d-none.d-lg-block
+          img(src='@/assets/curso/temas/28.svg', alt='' style='width: 295px')
+    p.text-center(data-aos='fade-right')
       span.r-4.fst-italic Verb “to have” in present simple + BEEN
     .titulo-sexto.color-primario(data-aos='fade-right')
       h5 Tabla 2
       span Auxiliaries for the present perfect continuous tense
-    .tarjeta.rounded-0.color-acento-contenido.p-3
+    .tarjeta.rounded-0.color-acento-contenido.p-3(data-aos='fade-right')
       h3.text-center.mb-0 Singular
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-lg-0.mb-3.h-100
-        .tarjeta.rounded-0.p-4(style='background-color: #e1e8ff; border: 2px solid #6b8dfc').h-100
+        .tarjeta.rounded-0.p-4(style='background-color: #e1e8ff; border: 2px solid #6b8dfc').h-100(data-aos='fade-right')
           img.m-auto.mb-2(src='@/assets/curso/temas/29.svg', alt='' style='width: 85px')
           h4.text-center
             span.r-3 1st person
@@ -191,7 +193,7 @@
                 texto="It has been"
                 :audio="require('@/assets/audios/tema3/9.wav')"
                 )
-    .row.justify-content-center
+    .row.justify-content-center(data-aos='fade-right')
       .col-lg-9
         .tarjeta.rounded-0.color-acento-botones.p-3
           h3.text-center.mb-0 Plural
@@ -223,7 +225,7 @@
             texto="They have been"
             :audio="require('@/assets/audios/tema3/12.wav')"
             )
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-3: img(src='@/assets/curso/temas/31.svg')
       .col-lg-9.mb-lg-0.mb-3
         .contenedor-traductor
@@ -238,8 +240,8 @@
                 br  
                 br  
                 |Veamos cómo estos verbos interactúan con el resto de las palabras en las oraciones en pasado progresivo:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-4")
-      div(titulo="Affirmative / Afirmativa").p-5
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-4")(data-aos='fade-right')
+      div(titulo="Affirmative / Afirmativa")
         .tarjeta.bg-white.p-4
           p.text-center
             span.r-4 Affirmative / Afirmativa
@@ -275,7 +277,7 @@
             texto=""
             :audio="require('@/assets/audios/tema3/16.mp3')"
             )
-    .bg-card
+    .bg-card(data-aos='fade-right')
       .row.justify-content-center.px-4
         .col-lg-4.py-5
           img.m-auto.mb-4(src='@/assets/curso/temas/numero1.svg', alt='' style='width:50px')
@@ -298,7 +300,7 @@
                 span.r-5 Tanto #[i "have not been"] como su contracción #[i "haven't been"] son correctos, lo mismo con #[i "has not been"] y su contracción #[i "hasn't been".] Pero hay que tener en cuenta que para contextos formales no se recomienda usar contracciones.
 
             a.boton-traduccion(@click='ocultarEsp8 = !ocultarEsp8') Ver traducción
-    .card.rounded-0(style='background-color: #a6bbff').p-5.mb-4
+    .card.rounded-0(style='background-color: #a6bbff').p-5.mb-4(data-aos='fade-right')
       .row.justify-content-center.mb-3
         .col-lg-8
           .d-flex 
@@ -311,7 +313,7 @@
                   span.r-5 Cuando hablamos de oraciones interrogativas, tenemos preguntas cerradas (preguntas de "sí" o "no") y preguntas abiertas (preguntas informativas).
 
               a.boton-traduccion(@click='ocultarEsp9 = !ocultarEsp9') Ver traducción
-    Dialogo.color-acento-contenido(:dialogo="dialogo")
+    Dialogo.color-acento-contenido(:dialogo="dialogo")(data-aos='zoom-in')
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Completa la conversación
       template(#descripcion-actividad)        
@@ -423,4 +425,10 @@ export default {
   background-repeat: repeat
   background-size: cover
   background-position: center
+.imagen-absolute
+  width: 295px
+  position: absolute
+  right: 0
+  bottom: 0
+  transform: translateY(8%) translateX(-10%)
 </style>
