@@ -165,7 +165,7 @@
               p.text-center.fw-bold.mb-0.text-white <em>Present perfect</em> / Presente perfecto
           .tarjeta-titulo-up__contenido
             p 
-              span.r-3.fst-italic.fw-normal It usually talks about an activity that started in the past but it’s not finished (it is connected to the present.)
+              span.r-3.fst-italic.fw-normal It usually talks about an activity that started in the past but it’s not finished (it is connected to the present). 
               | Por lo general, habla de una actividad que comenzó en el pasado, pero no ha terminado (está conectado con el presente).
 
               br
@@ -216,7 +216,7 @@
                   li
                   .lista-ol--cuadro__vineta.azul.py-4
                     span 2
-                  | <em>To talk about something that happened in the past, but we don’t specify when it has happened (because we don’t know or it is not important.) </em> 
+                  | <em>To talk about something that happened in the past, but we don’t specify when it has happened (because we don’t know or it is not important). </em> 
                   span.text-gray / Para hablar de algo que sucedió en el pasado, pero no especificamos cuándo sucedió (porque no sabemos o no es importante).
                 img.mb-3.m-auto(src='@/assets/curso/temas/10.svg', alt='' )
                 p  <em>For example: </em> / Por ejemplo: 

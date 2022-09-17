@@ -143,7 +143,8 @@ export default {
       referencia:
         'BBC Learning English. (2018). <em>The past simple and past perfect tenses - Learners Questions [Video].</em> YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=jwmKjgwlMk8',
+      link:
+        'https://www.youtube.com/watch?v=8c20lS2t8f0&ab_channel=BBCLearningEnglish',
     },
     {
       tema:
@@ -173,18 +174,18 @@ export default {
       significado: 'actividades de ocio o que se realizan en el tiempo libre.',
     },
     {
-      termino: 'Past simple tense / Tiempo pasado simple:',
+      termino: 'Past simple tense / Tiempo pasado simple',
       significado:
         'tiempo verbal que hace referencia a acciones que se llevaron a cabo en un momento o tiempo previo al ahora.',
     },
     {
-      termino: 'Present perfect tense / Tiempo presente perfecto:',
+      termino: 'Present perfect tense / Tiempo presente perfecto',
       significado:
         'tiempo verbal que hace referencia a acciones que se llevaron a cabo en algún momento del pasado, pero siguen teniendo relevancia o están conectadas, de alguna forma, con el presente.',
     },
     {
       termino:
-        'Present perfect continuous tense / Tiempo presente perfecto continuo:',
+        'Present perfect continuous tense / Tiempo presente perfecto continuo',
       significado:
         'tiempo verbal que resalta la acción que se ha estado realizando durante un tiempo.',
     },
